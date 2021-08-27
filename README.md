@@ -10,5 +10,5 @@
 
 ### Dependencies
 
- - Chromedriver, to be copied to resources folder
+ - Chromedriver, to be copied to project root
  - I used IntelliJ CE to run the tests but the same can be done through cli provided maven is installed through mvn test 
