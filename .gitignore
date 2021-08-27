@@ -100,7 +100,7 @@ buildNumber.properties
 .idea
 
 # chromedriver
-resources/chromedriver
-resources/chromedriver.exe
+chromedriver
+chromedriver.exe
 
 /target/*

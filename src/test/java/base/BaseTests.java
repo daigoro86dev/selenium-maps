@@ -20,9 +20,9 @@ public class BaseTests {
         OS = System.getProperty("os.name").toLowerCase();
 
         if (OS.contains("win")) {
-            System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         } else {
-            System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "chromedriver");
         }
 
         ChromeOptions options = new ChromeOptions();
